@@ -20,7 +20,7 @@ const index = client.initIndex(process.env.ALGOLIA_INDEX);
 
 const processRecords = () => {
   return index.saveObjects(updatedProducts, {
-    autoGenerateObjectIDIfNotExist: true, // Cette option crée automatiquement un ID si nécessaire
+    autoGenerateObjectIDIfNotExist: true,
   });
 };
 
