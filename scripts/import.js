@@ -11,7 +11,6 @@ const updatedProducts = products.map((product) => {
   return product;
 });
 
-// Connect and authenticate with your Algolia app
 const client = algoliasearch(
   process.env.ALGOLIA_APP_ID,
   process.env.ALGOLIA_API_KEY
@@ -19,7 +18,6 @@ const client = algoliasearch(
 
 const index = client.initIndex(process.env.ALGOLIA_INDEX);
 
-// Send updatedProducts to Algolia
 const processRecords = () => {
   return index.saveObjects(updatedProducts, {
     autoGenerateObjectIDIfNotExist: true, // Cette option crée automatiquement un ID si nécessaire
