@@ -101,9 +101,10 @@
   font-size: inherit;
 }
 
-.result-hit > * {
-  /* pointer-events: none */
-}
+/* We comment this line to make the buttons work. */
+/* .result-hit > * {
+  pointer-events: none
+} */
 
 #searchbox {
   margin-bottom: 2rem;
