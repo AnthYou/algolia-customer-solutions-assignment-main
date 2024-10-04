@@ -101,9 +101,10 @@
   font-size: inherit;
 }
 
-.result-hit > * {
+/* We comment this line to make the buttons work. */
+/* .result-hit > * {
   pointer-events: none
-}
+} */
 
 #searchbox {
   margin-bottom: 2rem;
@@ -112,4 +113,8 @@
 #pagination {
   margin: 2rem auto;
   text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
 }
