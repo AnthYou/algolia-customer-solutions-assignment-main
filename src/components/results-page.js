@@ -29,7 +29,11 @@ class ResultPage {
     this._searchInstance = instantsearch({
       indexName: process.env.ALGOLIA_INDEX,
       searchClient: this._searchClient,
-      insights: true,
+      insights: {
+        insightsInitParams: {
+          useCookie: true,
+        },
+      },
     });
   }
 
