@@ -13,7 +13,7 @@ const resultHit = (hit, { html, sendEvent }) => {
         class="result-hit__view"
         onClick="${(event) => {
           event.stopPropagation();
-          sendEvent('click', hit, 'Item View Button Clicked');
+          sendEvent('click', hit, 'Product Clicked');
         }}"
       >
         View
@@ -23,7 +23,9 @@ const resultHit = (hit, { html, sendEvent }) => {
         class="result-hit__cart"
         onClick="${(event) => {
           event.stopPropagation();
-          sendEvent('conversion', hit, 'Added To Cart');
+          sendEvent('conversion', hit, 'Added To Cart', {
+            eventSubType: 'addToCart',
+          });
         }}"
       >
         Add To Cart
