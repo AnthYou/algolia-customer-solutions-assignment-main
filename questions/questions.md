@@ -23,7 +23,11 @@ Thank you so much for your feedback, and I completely understand your frustratio
 
 We're constantly working on improving the user experience, so your input is really valuable. I'll pass this on to our product team. In the meantime, if you'd like a faster way to clear or delete indexes, you might find using our API or the command-line interface (CLI) more efficient for those tasks.
 
-Let me know if you'd like some guidance on using those tools!
+You can refer to this documentation about how to use the CLI for clearing and deleting indexes:
+- Clearing indexes : https://www.algolia.com/doc/tools/cli/commands/algolia-indices/#algolia-indices-clear
+- Deleting indexes : https://www.algolia.com/doc/tools/cli/commands/algolia-indices/#algolia-indices-delete
+
+Let me know if you'd like some guidance on using those tools! I'd be happy to help.
 
 Thanks again for sharing your thoughts,
 Anthony
