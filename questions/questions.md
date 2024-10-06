@@ -78,3 +78,24 @@ Hi, my website is not working and here's the error:
 
 Can you fix it please?
 
+__
+
+From: anthony.you@algolia.com
+To: marc@hotmail.com
+Subject: Re: Error on website
+
+Hi Marc,
+
+Thanks for reaching out! I noticed that the error you're seeing is related to searchkit, which is typically used with Elasticsearch, not Algolia. Are you in the process of transitioning your search to Algolia or integrating Algolia for the first time? If so, I'd be happy to guide you through the setup.
+
+Here are a few questions to help me better understand your situation:
+- Are you currently using Algolia on your website, or are you transitioning from another search provider like Elasticsearch?
+- Have you installed Algolia’s official libraries, such as "algoliasearch" or "instantsearch.js"?
+- Are you encountering any issues specifically related to Algolia after removing searchkit?
+
+If you're migrating to Algolia or setting it up, I can provide you with detailed steps and resources. If you're still using another provider and evaluating Algolia, I'd be happy to explain how you can integrate it seamlessly into your website.
+
+Looking forward to hearing back from you and helping you get everything up and running!
+
+Best regards,
+Anthony
