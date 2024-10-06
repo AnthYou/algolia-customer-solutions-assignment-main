@@ -1,20 +1,20 @@
 *Question 1*
 
 
-From: marissa@startup.com
+From: marissa@startup.com      
 Subject:  Bad design
 
 Hello,
 
 Sorry to give you the kind of feedback that I know you do not want to hear, but I really hate the new dashboard design. Clearing and deleting indexes are now several clicks away. I am needing to use these features while iterating, so this is inconvenient.
 
-Thanks,
+Thanks,      
 Marissa
 
 __
 
-From: anthony.you@algolia.com
-To: marissa@startup.com
+From: anthony.you@algolia.com      
+To: marissa@startup.com      
 Subject: Re: Bad design
 
 Hi Marissa,
@@ -29,14 +29,14 @@ You can refer to this documentation about how to use the CLI for clearing and de
 
 Let me know if you'd like some guidance on using those tools! I'd be happy to help.
 
-Thanks again for sharing your thoughts,
+Thanks again for sharing your thoughts,      
 Anthony
 
 --
 
 *Question 2*:
 
-From: carrie@coffee.com
+From: carrie@coffee.com    
 Subject: URGENT ISSUE WITH PRODUCTION!!!!
 
 Since today 9:15am we have been seeing a lot of errors on our website. Multiple users have reported that they were unable to publish their feedbacks and that an alert box with "Record is too big, please contact enterprise@algolia.com".
@@ -47,8 +47,8 @@ Please advise on how to fix this. Thanks.
 
 __
 
-From: anthony.you@algolia.com
-To: carrie@coffee.com
+From: anthony.you@algolia.com      
+To: carrie@coffee.com      
 Subject: Re: URGENT ISSUE WITH PRODUCTION!!!!
 
 Hi Carrie,
@@ -61,7 +61,7 @@ To fix this, I suggest either moving some of the non-searchable metadata to an e
 
 I’m happy to assist further if you need help implementing the fix, and thank you for your patience while we work through this!
 
-Best regards,
+Best regards,      
 Anthony
 
 --
@@ -69,7 +69,7 @@ Anthony
 *Question 3*:
 
 
-From: marc@hotmail.com
+From: marc@hotmail.com      
 Subject: Error on website
 
 Hi, my website is not working and here's the error:
@@ -80,22 +80,22 @@ Can you fix it please?
 
 __
 
-From: anthony.you@algolia.com
-To: marc@hotmail.com
+From: anthony.you@algolia.com      
+To: marc@hotmail.com      
 Subject: Re: Error on website
 
 Hi Marc,
 
-Thanks for reaching out! I noticed that the error you're seeing is related to searchkit, which is typically used with Elasticsearch, not Algolia. Are you in the process of transitioning your search to Algolia or integrating Algolia for the first time? If so, I'd be happy to guide you through the setup.
+Thanks for reaching out! I noticed that the error you're seeing is related to "searchkit", which is typically used with Elasticsearch, not Algolia. Are you in the process of transitioning your search to Algolia or integrating Algolia for the first time? If so, I'd be happy to guide you through the setup.
 
 Here are a few questions to help me better understand your situation:
 - Are you currently using Algolia on your website, or are you transitioning from another search provider like Elasticsearch?
 - Have you installed Algolia’s official libraries, such as "algoliasearch" or "instantsearch.js"?
-- Are you encountering any issues specifically related to Algolia after removing searchkit?
+- Are you encountering any issues specifically related to Algolia after removing "searchkit"?
 
 If you're migrating to Algolia or setting it up, I can provide you with detailed steps and resources. If you're still using another provider and evaluating Algolia, I'd be happy to explain how you can integrate it seamlessly into your website.
 
 Looking forward to hearing back from you and helping you get everything up and running!
 
-Best regards,
+Best regards,      
 Anthony
