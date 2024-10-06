@@ -15,7 +15,7 @@ __
 
 From: anthony.you@algolia.com
 To: marissa@startup.com
-Subject: RE: Bad design
+Subject: Re: Bad design
 
 Hi Marissa,
 
@@ -45,6 +45,24 @@ Our website is an imdb like website where users can post reviews of coffee shops
 
 Please advise on how to fix this. Thanks.
 
+__
+
+From: anthony.you@algolia.com
+To: carrie@coffee.com
+Subject: Re: URGENT ISSUE WITH PRODUCTION!!!!
+
+Hi Carrie,
+
+I’m really sorry to hear this issue is impacting your site, and thank you for flagging it so quickly! The error message you're seeing (“Record is too big”) happens when a record exceeds the size limits that Algolia enforces for performance reasons.
+
+For your plan, the maximum record size is likely 100 KB per individual record, with a 10 KB average record size across all records. It sounds like the additional metadata you’re enriching the records with, which isn’t meant for search, might be causing the size limit to be exceeded. Please refer to this doc for more information: https://support.algolia.com/hc/en-us/articles/4406981897617-Is-there-a-size-limit-for-my-index-records
+
+To fix this, I suggest either moving some of the non-searchable metadata to an external database or reducing the amount of metadata in the records you send to Algolia. If you’re interested in increasing your limits, I’d recommend reaching out to our Enterprise team at the email you mentioned.
+
+I’m happy to assist further if you need help implementing the fix, and thank you for your patience while we work through this!
+
+Best regards,
+Anthony
 
 --
 
